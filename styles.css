@@ -1,0 +1,44 @@
+html {
+    width: 100%;
+    height: 100%;
+
+    background-color: tomato;
+    margin: 0;
+}
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 30px auto;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    margin: 0;
+}
+
+#container {
+    display: grid;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    height: 90%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background-color: white;
+}
+
+.gridSquare {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.gridSquareHover {
+    background-color: black;
+}
+
+.gridSquareColorHover {
+    
+}
+
+#resetButton {
+    margin: 10px 0 10px 0;
+}
