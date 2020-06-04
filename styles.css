@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #container {
     display: grid;
     border: 5px;
@@ -29,14 +33,6 @@ body {
 .gridSquare {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
-}
-
-.gridSquareHover {
-    background-color: black;
-}
-
-.gridSquareColorHover {
-    
 }
 
 #resetButton {
